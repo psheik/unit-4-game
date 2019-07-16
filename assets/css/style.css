@@ -5,12 +5,12 @@ body {
 h1 {
   padding: 5px;
   background: #C97035;
-  width: 18%;
+  width: 184px;
   color: #fff;
   font-weight: 700;
   text-align: center;
   margin: 10px;
-  font-size: 2.32vw;
+  font-size: 24px;
   height: 95px;
   font-family: "Times New Roman", Times, serif;
   vertical-align: middle;
@@ -21,7 +21,7 @@ h1 {
 .instructions {
   background: #FBE6D0;
   color: green;
-  width: 25%;
+  width: 370px;
   line-height: 1.5;
   padding: 5px;
   font-size: 18px;
@@ -47,10 +47,9 @@ h1 {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 8%;
+  width: 170px;
   height: 85px;
   padding: 5px;
-  min-width: 80px;
 }
 
 .winlossRecord {
@@ -58,7 +57,7 @@ h1 {
   padding: 5px;
   padding-bottom: 30px;
   margin-bottom: 5px;
-  width: 100px;
+  width: 85px;
   height: 60px;
   vertical-align: middle;
   text-align: center;
@@ -94,11 +93,10 @@ h1 {
   padding-left: 5px;
   padding-top: 8px;
   padding-right: 5px;
-  width: 17%;
+  width: 190px;
   color: white;
   font-size: 16px;
   background-color: #279285;
-  min-width: 200px;
 }
 
 .scorePrompt p:last-child {
@@ -109,11 +107,10 @@ h1 {
 
 .score p {
   padding: 5px;
-  width: 17%;
+  width: 190px;
   color: white;
   font-size: 16px;
   background-color: #279285;
-  min-width: 200px;
 }
 
 .score {
@@ -130,10 +127,4 @@ h1 {
   height: 65px;
   width: 65px;
   background: white;
-}
-
-@media only screen and (max-width: 600px) {
-  h1 {
-    width: 21%;
-  }
 }
