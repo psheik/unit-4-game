@@ -1,0 +1,132 @@
+body {
+  background-image: url("../images/background.png");
+}
+
+h1 {
+  padding: 5px;
+  background: #C97035;
+  width: 18%;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+  font-size: 2.32vw;
+  height: 95px;
+  font-family: "Times New Roman", Times, serif;
+  vertical-align: middle;
+  line-height: 100px; 
+}
+
+.instructions {
+  background: #FBE6D0;
+  color: green;
+  width: 25%;
+  line-height: 1.5;
+  padding: 5px;
+  font-size: 18px;
+  margin: 10px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+.instructions p {
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.numBox {
+  background-color: #61C784;
+  color: #651A5F;
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 8%;
+  height: 85px;
+  padding: 5px;
+  min-width: 80px;
+}
+
+.winlossRecord {
+  background-color: #56FDFE;
+  padding: 5px;
+  padding-bottom: 30px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 42px; 
+  color: #237A77;
+}
+
+.crystalsRow {
+  display: flex;
+  width: 30%;
+  margin-left: 5px;
+}
+
+.crystal {
+  margin: 5px;
+  margin-bottom: 7px;
+}
+
+.crystal:hover {
+  position: relative;
+  bottom: 5px;
+  cursor: pointer;
+}
+
+.scorePrompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.scorePrompt p {
+  padding-left: 5px;
+  padding-top: 8px;
+  padding-right: 5px;
+  width: 17%;
+  color: white;
+  font-size: 16px;
+  background-color: #279285;
+  min-width: 200px;
+}
+
+.scorePrompt p:last-child {
+  height: 24px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.score p {
+  padding: 5px;
+  width: 17%;
+  color: white;
+  font-size: 16px;
+  background-color: #279285;
+  min-width: 200px;
+}
+
+.score {
+  margin-bottom: 25px;
+}
+
+.score p:last-child {
+  margin-left: 10px;
+  height: 100px;
+  font-size: 40px;
+}
+
+.crystalsRow img {
+  height: 65px;
+  width: 65px;
+  background: white;
+}
