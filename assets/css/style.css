@@ -17,6 +17,11 @@ h1 {
 
 }
 
+@media only screen and (max-width: 600px) {
+  h1 { 
+    width: 230px;
+  }
+}
 .instructions {
   background: #FBE6D0;
   color: green;
@@ -127,3 +132,4 @@ h1 {
   width: 65px;
   background: white;
 }
+
