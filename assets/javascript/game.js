@@ -13,7 +13,7 @@ $(document).ready(function() {
   
     // Function sets crystal values
     function setCrystalvalue(crystalType){
-      var crystalValue = generateNum(1, 12);
+      var crystalValue = generateNum(1, 13);
       $("#" + crystalType).attr("data-value", crystalValue);
     }
   
