@@ -19,7 +19,7 @@ $(document).ready(function() {
   
     // Function resets game
     function newGame() {
-      randomNum = generateNum(19, 120);
+      randomNum = generateNum(19, 121);
       $("#randomNum").text(randomNum);
       $(".crystal").each(function(){
         setCrystalvalue($(this).attr('id'));
