@@ -161,7 +161,7 @@ h1 {
         } 
         
 @media screen and (max-width: 640px) {
-  div { 
-          width: 100%;
-          position: static;
+  h1 { 
+          width: 230px;
         } 
+  
